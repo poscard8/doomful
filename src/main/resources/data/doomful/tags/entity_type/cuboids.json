@@ -1,0 +1,19 @@
+{
+  "values":
+  [
+    "minecraft:slime",
+    "minecraft:magma_cube",
+    {
+      "id": "alexscaves:ferrouslime",
+      "required": false
+    },
+    {
+      "id": "alexscaves:caramel_cube",
+      "required": false
+    },
+    {
+      "id": "betterend:end_slime",
+      "required": false
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "type": "doomful:smithing_artifact_clear",
+  "addition":
+  {
+    "item": "minecraft:amethyst_shard"
+  },
+  "base":
+  {
+    "tag": "doomful:weapons"
+  },
+  "template":
+  [
+    {
+      "item": "doomful:artifact_upgrade_smithing_template"
+    },
+    {
+      "item": "doomful:relic_upgrade_smithing_template"
+    }
+  ]
+}

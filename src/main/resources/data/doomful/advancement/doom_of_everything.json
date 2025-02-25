@@ -1,0 +1,149 @@
+{
+  "display":
+  {
+    "icon":
+    {
+      "id": "doomful:atrocious_relic"
+    },
+    "title":
+    {
+      "translate": "doomful.advancement.doom_of_everything"
+    },
+    "description":
+    {
+      "translate": "doomful.advancement.doom_of_everything.description",
+      "color": "red"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "doomful:doom_of_something",
+  "criteria":
+  {
+    "undead":
+    {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions":
+      {
+        "recipe_id": "doomful:relic_upgrade",
+        "ingredients":
+        [
+          {
+            "items":
+            [
+              "doomful:undead_relic"
+            ]
+          }
+        ]
+      }
+    },
+    "pig":
+    {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions":
+      {
+        "recipe_id": "doomful:relic_upgrade",
+        "ingredients":
+        [
+          {
+            "items":
+            [
+              "doomful:meaty_relic"
+            ]
+          }
+        ]
+      }
+    },
+    "construct":
+    {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions":
+      {
+        "recipe_id": "doomful:relic_upgrade",
+        "ingredients":
+        [
+          {
+            "items":
+            [
+              "doomful:atrocious_relic"
+            ]
+          }
+        ]
+      }
+    },
+    "illager":
+    {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions":
+      {
+        "recipe_id": "doomful:relic_upgrade",
+        "ingredients":
+        [
+          {
+            "items":
+            [
+              "doomful:ominous_relic"
+            ]
+          }
+        ]
+      }
+    },
+    "ender":
+    {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions":
+      {
+        "recipe_id": "doomful:relic_upgrade",
+        "ingredients":
+        [
+          {
+            "items":
+            [
+              "doomful:ender_relic"
+            ]
+          }
+        ]
+      }
+    },
+    "aquatic":
+    {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions":
+      {
+        "recipe_id": "doomful:relic_upgrade",
+        "ingredients":
+        [
+          {
+            "items":
+            [
+              "doomful:submerged_relic"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "requirements":
+  [
+    [
+      "undead"
+    ],
+    [
+      "pig"
+    ],
+    [
+      "construct"
+    ],
+    [
+      "illager"
+    ],
+    [
+      "ender"
+    ],
+    [
+      "aquatic"
+    ]
+  ]
+}

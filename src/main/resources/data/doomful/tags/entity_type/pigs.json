@@ -1,0 +1,15 @@
+{
+  "values":
+  [
+    "minecraft:piglin",
+    "minecraft:piglin_brute",
+    "minecraft:zombified_piglin",
+    "minecraft:hoglin",
+    "minecraft:zoglin",
+    "minecraft:pig",
+    {
+      "id": "betternether:flying_pig",
+      "required": false
+    }
+  ]
+}
