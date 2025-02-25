@@ -1,0 +1,31 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern":
+  [
+    " A ",
+    "ABA",
+    " C "
+  ],
+  "key":
+  {
+    "A":
+    {
+      "item": "minecraft:spider_eye"
+    },
+    "B":
+    {
+      "item": "minecraft:soul_sand"
+    },
+    "C":
+    {
+      "item": "minecraft:chiseled_stone_bricks"
+    }
+  },
+  "result":
+  {
+    "item": "doomful:spider_artifact",
+    "count": 1
+  },
+  "show_notification": true
+}

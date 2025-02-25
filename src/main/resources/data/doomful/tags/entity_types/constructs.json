@@ -1,0 +1,63 @@
+{
+  "values":
+  [
+    "minecraft:snow_golem",
+    "minecraft:iron_golem",
+    "minecraft:creeper",
+    "minecraft:blaze",
+    "minecraft:ravager",
+    "minecraft:wither",
+    {
+      "id": "alexscaves:teletor",
+      "required": false
+    },
+    {
+      "id": "alexscaves:magnetron",
+      "required": false
+    },
+    {
+      "id": "alexscaves:boundroid",
+      "required": false
+    },
+    {
+      "id": "alexscaves:notor",
+      "required": false
+    },
+    {
+      "id": "alexscaves:caniac",
+      "required": false
+    },
+    {
+      "id": "alexscaves:nucleeper",
+      "required": false
+    },
+    {
+      "id": "alexscaves:brainiac",
+      "required": false
+    },
+    {
+      "id": "cataclysm:old_netherite_monstrosity",
+      "required": false
+    },
+    {
+      "id": "cataclysm:netherite_monstrosity",
+      "required": false
+    },
+    {
+      "id": "cataclysm:netherite_ministrosity",
+      "required": false
+    },
+    {
+      "id": "cataclysm:the_harbinger",
+      "required": false
+    },
+    {
+      "id": "cataclysm:the_watcher",
+      "required": false
+    },
+    {
+      "id": "cataclysm:the_prowler",
+      "required": false
+    }
+  ]
+}

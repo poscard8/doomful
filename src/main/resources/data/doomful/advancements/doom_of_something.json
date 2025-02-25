@@ -1,0 +1,49 @@
+{
+  "display":
+  {
+    "icon":
+    {
+      "item": "doomful:cubic_artifact"
+    },
+    "title":
+    {
+      "translate": "doomful.advancement.doom_of_something"
+    },
+    "description":
+    {
+      "translate": "doomful.advancement.doom_of_something.description",
+      "color": "red"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "minecraft:adventure/root",
+  "criteria":
+  {
+    "artifact":
+    {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions":
+      {
+        "recipe_id": "doomful:artifact_upgrade"
+      }
+    },
+    "relic":
+    {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions":
+      {
+        "recipe_id": "doomful:relic_upgrade"
+      }
+    }
+  },
+  "requirements":
+  [
+    [
+      "artifact",
+      "relic"
+    ]
+  ]
+}

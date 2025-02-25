@@ -1,0 +1,15 @@
+{
+  "type": "doomful:smithing_artifact",
+  "addition":
+  {
+    "tag": "doomful:artifacts"
+  },
+  "base":
+  {
+    "tag": "doomful:weapons"
+  },
+  "template":
+  {
+    "item": "doomful:artifact_upgrade_smithing_template"
+  }
+}

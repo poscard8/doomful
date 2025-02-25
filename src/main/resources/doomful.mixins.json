@@ -1,0 +1,13 @@
+{
+  "required": true,
+  "package": "github.poscard8.doomful.mixin",
+  "compatibilityLevel": "JAVA_17",
+  "minVersion": "0.8",
+  "refmap": "doomful.mixins.refmap.json",
+  "mixins":
+  [
+    "EnchantmentMixin",
+    "DamageEnchantmentMixin",
+    "TridentImpalerEnchantmentMixin"
+  ]
+}

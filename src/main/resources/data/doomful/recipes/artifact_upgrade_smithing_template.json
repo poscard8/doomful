@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "ABA",
+    "ACA",
+    "AAA"
+  ],
+  "key": {
+    "A": {
+      "item": "minecraft:amethyst_shard"
+    },
+    "B": {
+      "item": "doomful:artifact_upgrade_smithing_template"
+    },
+    "C": {
+      "item": "minecraft:stone_bricks"
+    }
+  },
+  "result": {
+    "item": "doomful:artifact_upgrade_smithing_template",
+    "count": 2
+  },
+  "show_notification": true
+}

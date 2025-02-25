@@ -1,0 +1,31 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern":
+  [
+    " A ",
+    "BCB",
+    " B "
+  ],
+  "key":
+  {
+    "A":
+    {
+      "item": "minecraft:emerald"
+    },
+    "B":
+    {
+      "item": "minecraft:chiseled_stone_bricks"
+    },
+    "C":
+    {
+      "item": "minecraft:soul_sand"
+    }
+  },
+  "result":
+  {
+    "item": "doomful:cubic_artifact",
+    "count": 1
+  },
+  "show_notification": true
+}
