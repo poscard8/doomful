@@ -1,2 +1,1 @@
-# doomful
-doomful mod
+# Doomful
